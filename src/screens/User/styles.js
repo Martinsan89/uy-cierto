@@ -3,14 +3,19 @@ import { colors } from "../../constants";
 
 export const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.secondary,
-    // padding: 20,
     justifyContent: "center",
     alignItems: "center",
-    height: 100,
+    paddingBottom: 15,
   },
   title: {
-    fontSize: 45,
-    color: colors.black,
+    fontSize: 25,
+    color: colors.white,
+  },
+  buttonBackContainer: {
+    width: "25%",
+    marginLeft: 5,
+  },
+  buttonBack: {
+    backgroundColor: colors.default,
   },
 });

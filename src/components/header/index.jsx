@@ -1,11 +1,15 @@
 import React from "react";
 import { View, Text } from "react-native";
+import TextFont from "../textFont";
 import { styles } from "./styles";
 
 const Header = () => {
+  
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Uy, cierto</Text>
+      <TextFont textType={'Regular'}>
+        <Text style={styles.title}>Lagurar</Text>
+      </TextFont>
     </View>
   );
 };
